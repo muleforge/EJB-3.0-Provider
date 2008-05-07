@@ -3,16 +3,16 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>@maven.group.id@</groupId>
-	<artifactId>@maven.artifact.id@</artifactId>
-	<name>@maven.name@</name>
-	<description>@maven.description@</description>
+	<groupId>org.mule.transports</groupId>
+	<artifactId>mule-transport-ejb3</artifactId>
+	<name>EJB 3.0</name>
+	<description>Allows Mule to invoke 3.0 EJBs</description>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<properties>
 		<muleVersion>1.4.1</muleVersion>
-		<shortId>@maven.short.id@</shortId>
-		<domainName>@domain.name@</domainName>
+		<shortId>EJBTHREE</shortId>
+		<domainName>ejb3-transport</domainName>
 	</properties>
 	<issueManagement>
 		<system>Jira</system>
