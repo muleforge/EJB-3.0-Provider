@@ -8,9 +8,9 @@
 	<name>EJB 3.0</name>
 	<description>Allows Mule to invoke 3.0 EJBs</description>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0-M1-SNAPSHOT</version>
 	<properties>
-		<muleVersion>1.4.1</muleVersion>
+		<muleVersion>1.4.4-SNAPSHOT</muleVersion>
 		<shortId>EJBTHREE</shortId>
 		<domainName>ejb3-transport</domainName>
 	</properties>
