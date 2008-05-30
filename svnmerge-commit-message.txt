@@ -1,0 +1,2 @@
+Initialized merge tracking via "svnmerge" with revisions "1-8" from 
+https://svn.muleforge.org/ejb3-transport/trunk

@@ -14,12 +14,16 @@ import org.mule.providers.AbstractMessageAdapter;
 import org.mule.umo.MessagingException;
 import org.mule.umo.provider.MessageTypeNotSupportedException;
 
+import org.mule.providers.rmiejb3.RmiMessageAdapter;
+
 /**
  * <code>Ejb3MessageAdapter</code> TODO document
  */
-public class Ejb3MessageAdapter extends AbstractMessageAdapter
+public class Ejb3MessageAdapter extends RmiMessageAdapter
 {
- 
+
+	
+	
     /* For general guidelines on writing transports see
        http://mule.mulesource.org/display/MULE/Writing+Transports */
 
@@ -27,17 +31,9 @@ public class Ejb3MessageAdapter extends AbstractMessageAdapter
        message. It should store a copy of the underlying message as an
        instance variable. */
     
-    public Ejb3MessageAdapter(Object message) throws MessagingException
+    public Ejb3MessageAdapter(Object message) throws MessageTypeNotSupportedException
     {
-        /* IMPLEMENTATION NOTE: The constructor should determine that the
-           message is of the correct type or throw an exception i.e.
-        
-        if (message instanceof byte[]) {
-            this.message = (byte[]) message;
-        } else {
-            throw new MessageTypeNotSupportedException(message, getClass());
-        }
-        */
+        super(message);
     }
 
     public String getPayloadAsString(String encoding) throws Exception

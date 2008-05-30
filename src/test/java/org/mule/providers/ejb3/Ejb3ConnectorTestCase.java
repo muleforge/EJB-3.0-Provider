@@ -20,7 +20,7 @@ public class Ejb3ConnectorTestCase extends AbstractConnectorTestCase
     /* For general guidelines on writing transports see
        http://mule.mulesource.org/display/MULE/Writing+Transports */
 
-    public UMOConnector getConnector() throws Exception
+    public UMOConnector getConnector()
     {
  
         /* IMPLEMENTATION NOTE: Create and initialise an instance of your
@@ -50,5 +50,11 @@ public class Ejb3ConnectorTestCase extends AbstractConnectorTestCase
         // TODO test setting and retrieving any custom properties on the
         // Connector as necessary
     }
+
+	@Override
+	public UMOConnector createConnector() throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
