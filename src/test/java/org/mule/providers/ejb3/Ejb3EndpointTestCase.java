@@ -13,7 +13,7 @@ package org.mule.providers.ejb3;
 import org.mule.impl.endpoint.MuleEndpointURI;
 import org.mule.tck.AbstractMuleTestCase;
 import org.mule.umo.endpoint.UMOEndpointURI;
-
+import org.mule.config.MuleProperties;
 
 public class Ejb3EndpointTestCase extends AbstractMuleTestCase
 {
@@ -23,20 +23,26 @@ public class Ejb3EndpointTestCase extends AbstractMuleTestCase
 
     public void testValidEndpointURI() throws Exception
     {
-        // TODO test creating and asserting Endpoint values eg
-
-        /*
-        UMOEndpointURI url = new MuleEndpointURI("tcp://localhost:7856");
-        assertEquals("tcp", url.getScheme());
-        assertEquals("tcp://localhost:7856", url.getAddress());
+        UMOEndpointURI url = new MuleEndpointURI("ejb3://localhost:1099");
+        assertEquals("ejb3", url.getScheme());
+        assertEquals("ejb3://localhost:1099", url.getAddress());
         assertNull(url.getEndpointName());
-        assertEquals(7856, url.getPort());
+        assertEquals(1099, url.getPort());
         assertEquals("localhost", url.getHost());
-        assertEquals("tcp://localhost:7856", url.getAddress());
         assertEquals(0, url.getParams().size());
-        */
-
-        throw new UnsupportedOperationException("testValidEndpointURI");
+    }
+    
+    public void testQueryParams1() throws Exception
+    {
+    	UMOEndpointURI url = new MuleEndpointURI("ejb3://localhost:1099/service?method=testMethod");
+    	assertEquals("ejb3", url.getScheme());
+    	//assertEquals("ejb3://localhost:1099", url.getAddress());
+    	assertEquals("/service", url.getPath());
+    	assertEquals(1099, url.getPort());
+    	assertNull(url.getEndpointName());
+    	assertEquals("ejb3://localhost:1099/service?method=testMethod", url.toString());
+    	assertEquals("testMethod", url.getParams().getProperty(MuleProperties.MULE_METHOD_PROPERTY));
+    	
     }
 
 }

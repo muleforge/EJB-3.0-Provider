@@ -14,44 +14,17 @@ import org.mule.providers.AbstractMessageAdapter;
 import org.mule.umo.MessagingException;
 import org.mule.umo.provider.MessageTypeNotSupportedException;
 
-import org.mule.providers.rmiejb3.RmiMessageAdapter;
+import org.mule.providers.rmi.RmiMessageAdapter;
 
 /**
  * <code>Ejb3MessageAdapter</code> TODO document
  */
 public class Ejb3MessageAdapter extends RmiMessageAdapter
 {
-
+	private static final long serialVersionUID = 3932390270676915501L;
 	
-	
-    /* For general guidelines on writing transports see
-       http://mule.mulesource.org/display/MULE/Writing+Transports */
-
-    /* IMPLEMENTATION NOTE: The MessageAdapter is used to wrap an underlying
-       message. It should store a copy of the underlying message as an
-       instance variable. */
-    
     public Ejb3MessageAdapter(Object message) throws MessageTypeNotSupportedException
     {
         super(message);
     }
-
-    public String getPayloadAsString(String encoding) throws Exception
-    {
-        // TODO return the string representation of the wrapped message
-        throw new UnsupportedOperationException("getPayloadAsString");
-    }
-
-    public byte[] getPayloadAsBytes() throws Exception
-    {
-        // TODO return the byte[] representation of the wrapped message
-        throw new UnsupportedOperationException("getPayloadAsBytes");
-    }
-
-    public Object getPayload()
-    {
-        // TODO return the actual wrapped message
-        throw new UnsupportedOperationException("getPayload");
-    }
-
 }

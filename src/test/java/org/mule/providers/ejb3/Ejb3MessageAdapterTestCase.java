@@ -22,13 +22,17 @@ public class Ejb3MessageAdapterTestCase extends AbstractMessageAdapterTestCase
 
     public Object getValidMessage() throws Exception
     {
-    	// TODO Create a valid message for your transport
-    	throw new UnsupportedOperationException("getValidMessage");
+    	return "Hello".getBytes();
     }
 
     public UMOMessageAdapter createAdapter(Object payload) throws MessagingException
     {
         return new Ejb3MessageAdapter(payload);
+    }
+    
+    public Object getInvalidMessage()
+    {
+    	return null;
     }
 
 }

@@ -20,28 +20,23 @@ public class Ejb3ConnectorTestCase extends AbstractConnectorTestCase
     /* For general guidelines on writing transports see
        http://mule.mulesource.org/display/MULE/Writing+Transports */
 
-    public UMOConnector getConnector()
+    public UMOConnector getConnector() 
     {
- 
-        /* IMPLEMENTATION NOTE: Create and initialise an instance of your
-           connector here. Do not actually call the connect method. */
-
         Ejb3Connector c = new Ejb3Connector();
-        c.setName("Test-Ejb3");
-        // TODO Set any additional properties on the connector here
+        c.setName("EJB3Connector");
         return c;
     }
 
     public String getTestEndpointURI()
     {
     	// TODO Return a valid endpoint for you transport here
-        throw new UnsupportedOperationException("getTestEndpointURI");
+    	return "ejb3://localhost:1099";
     }
 
     public Object getValidMessage() throws Exception
     {
         // TODO Return an valid message for your transport
-        throw new UnsupportedOperationException("getValidMessage");
+    	return "hello".getBytes();
     }
 
 
@@ -49,12 +44,22 @@ public class Ejb3ConnectorTestCase extends AbstractConnectorTestCase
     {
         // TODO test setting and retrieving any custom properties on the
         // Connector as necessary
+    	Ejb3Connector c = (Ejb3Connector) getConnector();
+    	
+    	String securityPolicy = "rmi.policy";
+    	c.setSecurityPolicy(securityPolicy);
+    	assertNotNull(c.getSecurityPolicy());
+    	
     }
 
 	@Override
-	public UMOConnector createConnector() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+	public UMOConnector createConnector() throws Exception 
+	{
+        Ejb3Connector c = new Ejb3Connector();
+        c.setName("EJB3Connector");
+        c.setSecurityManager(null);
+        c.initialise();
+        return c;
 	}
 
 }

@@ -1,0 +1,346 @@
+INFO  2008-05-30 16:28:51,953 [WrapperListener_start_runner] org.mule.MuleServer: Mule Server starting...
+INFO  2008-05-30 16:28:54,296 [WrapperListener_start_runner] org.mule.MuleManager: Creating new MuleManager instance
+INFO  2008-05-30 16:28:55,140 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Initialising: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:28:55,156 [WrapperListener_start_runner] org.mule.impl.DefaultExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultExceptionStrategy@d75415
+INFO  2008-05-30 16:28:55,156 [WrapperListener_start_runner] org.mule.providers.ejb3.Ejb3Connector: Initialising: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:29:00,843 [WrapperListener_start_runner] org.mule.impl.DefaultExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultExceptionStrategy@176086d
+INFO  2008-05-30 16:29:00,843 [WrapperListener_start_runner] org.mule.MuleManager: Connectors have been initialised successfully
+INFO  2008-05-30 16:29:00,843 [WrapperListener_start_runner] org.mule.MuleManager: Initialising agents...
+INFO  2008-05-30 16:29:00,890 [WrapperListener_start_runner] org.mule.MuleManager: Agents Successfully Initialised
+INFO  2008-05-30 16:29:00,890 [WrapperListener_start_runner] org.mule.impl.DefaultComponentExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultComponentExceptionStrategy@6a435f
+INFO  2008-05-30 16:29:00,906 [WrapperListener_start_runner] org.mule.impl.DefaultComponentExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultComponentExceptionStrategy@189635d
+INFO  2008-05-30 16:29:00,953 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Initialising: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:29:00,968 [WrapperListener_start_runner] org.mule.impl.DefaultExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultExceptionStrategy@869113
+INFO  2008-05-30 16:29:00,968 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component result has been started successfully
+INFO  2008-05-30 16:29:00,968 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component test has been started successfully
+INFO  2008-05-30 16:29:01,062 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Initialising: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,062 [WrapperListener_start_runner] org.mule.impl.DefaultExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultExceptionStrategy@1b5a5cf
+INFO  2008-05-30 16:29:01,078 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Starting: TcpConnector{this=ec436, started=false, initialised=true, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,093 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Started: TcpConnector{this=ec436, started=true, initialised=true, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,093 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Connected: TcpConnector{this=ec436, started=true, initialised=true, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,093 [WrapperListener_start_runner] org.mule.impl.internal.admin.MuleAdminAgent: Registering Admin listener on: tcp://localhost:60504
+INFO  2008-05-30 16:29:01,093 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Initialising component: _muleManagerComponent
+INFO  2008-05-30 16:29:01,109 [WrapperListener_start_runner] org.mule.util.queue.TransactionalQueueManager: Starting ResourceManager
+INFO  2008-05-30 16:29:01,109 [WrapperListener_start_runner] org.mule.util.queue.TransactionalQueueManager: Started ResourceManager
+INFO  2008-05-30 16:29:01,109 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Starting: SystemStreamConnector{this=aa233f, started=false, initialised=true, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,109 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Started: SystemStreamConnector{this=aa233f, started=true, initialised=true, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,109 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Connected: SystemStreamConnector{this=aa233f, started=true, initialised=true, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,109 [WrapperListener_start_runner] org.mule.providers.ejb3.Ejb3Connector: Starting: Ejb3Connector{this=1eb0, started=false, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,109 [WrapperListener_start_runner] org.mule.providers.ejb3.Ejb3Connector: Started: Ejb3Connector{this=1eb0, started=true, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,109 [WrapperListener_start_runner] org.mule.providers.ejb3.Ejb3Connector: Connected: Ejb3Connector{this=1eb0, started=true, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,125 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Starting: VMConnector{this=a1aa85, started=false, initialised=true, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,156 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Started: VMConnector{this=a1aa85, started=true, initialised=true, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,156 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Connected: VMConnector{this=a1aa85, started=true, initialised=true, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:29:01,156 [WrapperListener_start_runner] org.mule.MuleManager: Connectors have been started successfully
+INFO  2008-05-30 16:29:01,156 [WrapperListener_start_runner] org.mule.MuleManager: Starting agents...
+INFO  2008-05-30 16:29:01,156 [WrapperListener_start_runner] org.mule.MuleManager: Starting agent: Mule Admin: accepting connections on tcp://localhost:60504
+INFO  2008-05-30 16:29:01,156 [WrapperListener_start_runner] org.mule.MuleManager: Agents Successfully Started
+INFO  2008-05-30 16:29:01,218 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Registering listener: _muleManagerComponent on endpointUri: tcp://localhost:60504
+INFO  2008-05-30 16:29:01,234 [WrapperListener_start_runner] org.mule.providers.tcp.TcpMessageReceiver: Connected: TcpMessageReceiver{this=1f8d244, receiverKey=tcp://localhost:60504, endpoint=tcp://localhost:60504}
+INFO  2008-05-30 16:29:01,390 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component _muleManagerComponent has been started successfully
+INFO  2008-05-30 16:29:01,390 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Registering listener: result on endpointUri: vm://result
+INFO  2008-05-30 16:29:01,390 [WrapperListener_start_runner] org.mule.providers.vm.VMMessageReceiver: Connected: VMMessageReceiver{this=e7e8eb, receiverKey=result, endpoint=vm://result}
+INFO  2008-05-30 16:29:01,437 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component result has been started successfully
+INFO  2008-05-30 16:29:01,515 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Registering listener: test on endpointUri: stream://System.in
+INFO  2008-05-30 16:29:01,531 [WrapperListener_start_runner] org.mule.providers.stream.StreamMessageReceiver: Connected: StreamMessageReceiver{this=171194d, receiverKey=System.in, endpoint=stream://System.in}
+INFO  2008-05-30 16:29:01,562 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component test has been started successfully
+INFO  2008-05-30 16:29:01,734 [WrapperListener_start_runner] org.mule.MuleManager: 
+**********************************************************************
+* Mule ESB and Integration Platform                                  *
+* Version: 1.4.4 Build: 11748                                        *
+* MuleSource, Inc.                                                   *
+* For more information go to http://mule.mulesource.org              *
+*                                                                    *
+* Server started: 30/05/08 16:28                                     *
+* Server ID: ejb3-test                                               *
+* JDK: 1.5.0_14 (mixed mode)                                         *
+* OS: Windows XP - Service Pack 2 (5.1, x86)                         *
+* Host: cw-9y9vg1s (172.20.10.187)                                   *
+*                                                                    *
+* Agents Running:                                                    *
+*   Mule Admin: accepting connections on tcp://localhost:60504       *
+**********************************************************************
+INFO  2008-05-30 16:29:01,734 [WrapperListener_start_runner] org.mule.MuleServer: Mule Server initialized.
+INFO  2008-05-30 16:29:07,375 [test.2] org.mule.components.simple.LogComponent: 
+********************************************************************************
+* Message received in component: test. Content is: 'hello'                     *
+********************************************************************************
+ERROR 2008-05-30 16:29:09,953 [test.2] org.mule.impl.DefaultComponentExceptionStrategy: 
+********************************************************************************
+Message               : Initialisation Failure: ejb ref resolution error for remote business interfacefoo.EchoRemote
+Type                  : org.mule.providers.ConnectException
+Code                  : MULE_ERROR-84
+JavaDoc               : http://mule.mulesource.org/docs/apidocs/org/mule/providers/ConnectException.html
+Object                : Ejb3MessageDispatcher{this=fa706d, endpoint=ejb3://localhost:8080/echoBean?method=echo}
+Resolved Name         : <none>
+Remaining Name        : <none>
+********************************************************************************
+Exception stack is:
+1. foo.EchoRemote (java.lang.ClassNotFoundException)
+  java.net.URLClassLoader$1:200 (http://java.sun.com/j2se/1.5.0/docs/api/java/lang/ClassNotFoundException.html)
+2. javax.naming.NamingException: ejb ref resolution error for remote business interfacefoo.EchoRemote [Root exception is java.lang.ClassNotFoundException: foo.EchoRemote] (javax.naming.NamingException)
+  com.sun.ejb.EJBUtils:425 (http://java.sun.com/j2se/1.5.0/docs/api/javax/naming/NamingException.html)
+3. Initialisation Failure: ejb ref resolution error for remote business interfacefoo.EchoRemote (org.mule.providers.ConnectException)
+  org.mule.providers.AbstractMessageDispatcher:460 (http://mule.mulesource.org/docs/apidocs/org/mule/providers/ConnectException.html)
+********************************************************************************
+Root Exception stack trace:
+java.lang.ClassNotFoundException: foo.EchoRemote
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:268)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at com.sun.ejb.EJBUtils.getBusinessIntfClassLoader(EJBUtils.java:679)
+	at com.sun.ejb.EJBUtils.lookupRemote30BusinessObject(EJBUtils.java:348)
+	at com.sun.ejb.containers.RemoteBusinessObjectFactory.getObjectInstance(RemoteBusinessObjectFactory.java:74)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at com.sun.enterprise.naming.SerialContext.lookup(SerialContext.java:403)
+	at javax.naming.InitialContext.lookup(InitialContext.java:351)
+	at org.mule.providers.rmiejb3.RmiConnector.getRemoteRef(RmiConnector.java:333)
+	at org.mule.providers.rmiejb3.RmiMessageDispatcher.doConnect(RmiMessageDispatcher.java:59)
+	at org.mule.providers.AbstractMessageDispatcher.connect(AbstractMessageDispatcher.java:439)
+	at org.mule.providers.SingleAttemptConnectionStrategy.doConnect(SingleAttemptConnectionStrategy.java:25)
+	at org.mule.providers.AbstractConnectionStrategy.connect(AbstractConnectionStrategy.java:97)
+	at org.mule.providers.AbstractMessageDispatcher.connect(AbstractMessageDispatcher.java:431)
+	at org.mule.providers.SingleAttemptConnectionStrategy.doConnect(SingleAttemptConnectionStrategy.java:25)
+	at org.mule.providers.AbstractConnectionStrategy.connect(AbstractConnectionStrategy.java:97)
+	at org.mule.providers.AbstractMessageDispatcher.send(AbstractMessageDispatcher.java:222)
+	at org.mule.providers.AbstractConnector.send(AbstractConnector.java:1608)
+	at org.mule.impl.ImmutableMuleEndpoint.send(ImmutableMuleEndpoint.java:951)
+	at org.mule.impl.MuleSession.sendEvent(MuleSession.java:327)
+	at org.mule.impl.MuleSession.sendEvent(MuleSession.java:210)
+	at org.mule.routing.outbound.AbstractOutboundRouter$2.doInTransaction(AbstractOutboundRouter.java:147)
+	at org.mule.transaction.TransactionTemplate.execute(TransactionTemplate.java:40)
+	at org.mule.routing.outbound.AbstractOutboundRouter.send(AbstractOutboundRouter.java:154)
+	at org.mule.routing.outbound.ChainingRouter.route(ChainingRouter.java:67)
+	at org.mule.routing.outbound.OutboundRouterCollection$1.doInTransaction(OutboundRouterCollection.java:66)
+	at org.mule.transaction.TransactionTemplate.execute(TransactionTemplate.java:40)
+	at org.mule.routing.outbound.OutboundRouterCollection.route(OutboundRouterCollection.java:71)
+	at org.mule.impl.model.DefaultMuleProxy.run(DefaultMuleProxy.java:479)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:310)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:595)
+
+********************************************************************************
+
+INFO  2008-05-30 16:33:06,296 [Thread-0] org.mule.providers.tcp.TcpConnector: Stopping: TcpConnector{this=ec436, started=true, initialised=true, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.tcp.TcpMessageReceiver: Disconnected: TcpMessageReceiver{this=1f8d244, receiverKey=tcp://localhost:60504, endpoint=tcp://localhost:60504}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.tcp.TcpConnector: Stopped: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.tcp.TcpConnector: Disconnected: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.tcp.TcpConnector: Stopped: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Stopping: SystemStreamConnector{this=aa233f, started=true, initialised=true, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.stream.StreamMessageReceiver: Disconnected: StreamMessageReceiver{this=171194d, receiverKey=System.in, endpoint=stream://System.in}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Stopped: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Disconnected: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Stopped: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Stopping: Ejb3Connector{this=1eb0, started=true, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Stopped: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,312 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Disconnected: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,343 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Stopped: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.vm.VMConnector: Stopping: VMConnector{this=a1aa85, started=true, initialised=true, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.vm.VMMessageReceiver: Disconnected: VMMessageReceiver{this=e7e8eb, receiverKey=result, endpoint=vm://result}
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.vm.VMConnector: Stopped: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.vm.VMConnector: Disconnected: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.vm.VMConnector: Stopped: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.MuleManager: Connectors have been stopped successfully
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.MuleManager: Stopping agents...
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.MuleManager: Agents Successfully Stopped
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.util.queue.TransactionalQueueManager: Stopping ResourceManager
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.util.queue.TransactionalQueueManager: Stopped ResourceManager
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.tcp.TcpConnector: Removing listener on endpointUri: tcp://localhost:60504
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.tcp.TcpMessageReceiver: Closed Tcp port
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.impl.model.seda.SedaModel: Component _muleManagerComponent has been stopped successfully
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.vm.VMConnector: Removing listener on endpointUri: vm://result
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.impl.model.seda.SedaModel: Component result has been stopped successfully
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Removing listener on endpointUri: stream://System.in
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.impl.model.seda.SedaModel: Component test has been stopped successfully
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.tcp.TcpConnector: Disposing: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.tcp.TcpConnector: Stopped: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,375 [Thread-0] org.mule.providers.tcp.TcpConnector: Disposed: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=true, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,390 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Disposing: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:33:06,390 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Stopped: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+WARN  2008-05-30 16:33:11,390 [Thread-0] org.mule.impl.work.MuleWorkManager: Pool stream.receiver did not terminate in time; 0 work items were cancelled.
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Disposed: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=true, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Disposing: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Stopped: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Disposed: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=true, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.providers.vm.VMConnector: Disposing: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.providers.vm.VMConnector: Stopped: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.providers.vm.VMConnector: Disposed: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=true, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.impl.model.seda.SedaModel: _muleManagerComponent has been destroyed successfully
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.impl.model.seda.SedaModel: result has been destroyed successfully
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.impl.model.seda.SedaModel: test has been destroyed successfully
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.MuleManager: disposing agents...
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.MuleManager: Agents Successfully Disposed
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.util.queue.TransactionalQueueManager: Stopping ResourceManager
+INFO  2008-05-30 16:33:11,390 [Thread-0] org.mule.util.queue.TransactionalQueueManager: Stopped ResourceManager
+INFO  2008-05-30 16:33:11,453 [Thread-0] org.mule.MuleManager: 
+******************************************************************************
+* Mule shut down normally on: 30/05/08 16:33                                 *
+* Server was up for: 0 days, 0 hours, 4 mins, 16.359 sec                     *
+******************************************************************************
+INFO  2008-05-30 16:37:20,093 [WrapperListener_start_runner] org.mule.MuleServer: Mule Server starting...
+INFO  2008-05-30 16:37:21,937 [WrapperListener_start_runner] org.mule.MuleManager: Creating new MuleManager instance
+INFO  2008-05-30 16:37:22,765 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Initialising: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:22,765 [WrapperListener_start_runner] org.mule.impl.DefaultExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultExceptionStrategy@d75415
+INFO  2008-05-30 16:37:22,781 [WrapperListener_start_runner] org.mule.providers.ejb3.Ejb3Connector: Initialising: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,531 [WrapperListener_start_runner] org.mule.impl.DefaultExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultExceptionStrategy@234265
+INFO  2008-05-30 16:37:26,531 [WrapperListener_start_runner] org.mule.MuleManager: Connectors have been initialised successfully
+INFO  2008-05-30 16:37:26,531 [WrapperListener_start_runner] org.mule.MuleManager: Initialising agents...
+INFO  2008-05-30 16:37:26,593 [WrapperListener_start_runner] org.mule.MuleManager: Agents Successfully Initialised
+INFO  2008-05-30 16:37:26,593 [WrapperListener_start_runner] org.mule.impl.DefaultComponentExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultComponentExceptionStrategy@6d1750
+INFO  2008-05-30 16:37:26,593 [WrapperListener_start_runner] org.mule.impl.DefaultComponentExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultComponentExceptionStrategy@da9ea4
+INFO  2008-05-30 16:37:26,625 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Initialising: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,640 [WrapperListener_start_runner] org.mule.impl.DefaultExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultExceptionStrategy@869113
+INFO  2008-05-30 16:37:26,656 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component result has been started successfully
+INFO  2008-05-30 16:37:26,656 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component test has been started successfully
+INFO  2008-05-30 16:37:26,734 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Initialising: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,750 [WrapperListener_start_runner] org.mule.impl.DefaultExceptionStrategy: Initialising exception listener: org.mule.impl.DefaultExceptionStrategy@1b5a5cf
+INFO  2008-05-30 16:37:26,750 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Starting: TcpConnector{this=ec436, started=false, initialised=true, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,765 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Started: TcpConnector{this=ec436, started=true, initialised=true, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,765 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Connected: TcpConnector{this=ec436, started=true, initialised=true, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,765 [WrapperListener_start_runner] org.mule.impl.internal.admin.MuleAdminAgent: Registering Admin listener on: tcp://localhost:60504
+INFO  2008-05-30 16:37:26,765 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Initialising component: _muleManagerComponent
+INFO  2008-05-30 16:37:26,781 [WrapperListener_start_runner] org.mule.util.queue.TransactionalQueueManager: Starting ResourceManager
+INFO  2008-05-30 16:37:26,781 [WrapperListener_start_runner] org.mule.util.queue.TransactionalQueueManager: Started ResourceManager
+INFO  2008-05-30 16:37:26,781 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Starting: SystemStreamConnector{this=aa233f, started=false, initialised=true, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,781 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Started: SystemStreamConnector{this=aa233f, started=true, initialised=true, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,781 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Connected: SystemStreamConnector{this=aa233f, started=true, initialised=true, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,781 [WrapperListener_start_runner] org.mule.providers.ejb3.Ejb3Connector: Starting: Ejb3Connector{this=1eb0, started=false, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,781 [WrapperListener_start_runner] org.mule.providers.ejb3.Ejb3Connector: Started: Ejb3Connector{this=1eb0, started=true, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,781 [WrapperListener_start_runner] org.mule.providers.ejb3.Ejb3Connector: Connected: Ejb3Connector{this=1eb0, started=true, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,781 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Starting: VMConnector{this=a1aa85, started=false, initialised=true, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,828 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Started: VMConnector{this=a1aa85, started=true, initialised=true, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,828 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Connected: VMConnector{this=a1aa85, started=true, initialised=true, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:26,828 [WrapperListener_start_runner] org.mule.MuleManager: Connectors have been started successfully
+INFO  2008-05-30 16:37:26,828 [WrapperListener_start_runner] org.mule.MuleManager: Starting agents...
+INFO  2008-05-30 16:37:26,828 [WrapperListener_start_runner] org.mule.MuleManager: Starting agent: Mule Admin: accepting connections on tcp://localhost:60504
+INFO  2008-05-30 16:37:26,828 [WrapperListener_start_runner] org.mule.MuleManager: Agents Successfully Started
+INFO  2008-05-30 16:37:26,859 [WrapperListener_start_runner] org.mule.providers.tcp.TcpConnector: Registering listener: _muleManagerComponent on endpointUri: tcp://localhost:60504
+INFO  2008-05-30 16:37:26,875 [WrapperListener_start_runner] org.mule.providers.tcp.TcpMessageReceiver: Connected: TcpMessageReceiver{this=1f8d244, receiverKey=tcp://localhost:60504, endpoint=tcp://localhost:60504}
+INFO  2008-05-30 16:37:27,015 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component _muleManagerComponent has been started successfully
+INFO  2008-05-30 16:37:27,015 [WrapperListener_start_runner] org.mule.providers.vm.VMConnector: Registering listener: result on endpointUri: vm://result
+INFO  2008-05-30 16:37:27,031 [WrapperListener_start_runner] org.mule.providers.vm.VMMessageReceiver: Connected: VMMessageReceiver{this=19050a0, receiverKey=result, endpoint=vm://result}
+INFO  2008-05-30 16:37:27,031 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component result has been started successfully
+INFO  2008-05-30 16:37:27,031 [WrapperListener_start_runner] org.mule.providers.stream.SystemStreamConnector: Registering listener: test on endpointUri: stream://System.in
+INFO  2008-05-30 16:37:27,046 [WrapperListener_start_runner] org.mule.providers.stream.StreamMessageReceiver: Connected: StreamMessageReceiver{this=171194d, receiverKey=System.in, endpoint=stream://System.in}
+INFO  2008-05-30 16:37:27,062 [WrapperListener_start_runner] org.mule.impl.model.seda.SedaModel: Component test has been started successfully
+INFO  2008-05-30 16:37:27,125 [WrapperListener_start_runner] org.mule.MuleManager: 
+**********************************************************************
+* Mule ESB and Integration Platform                                  *
+* Version: 1.4.4 Build: 11748                                        *
+* MuleSource, Inc.                                                   *
+* For more information go to http://mule.mulesource.org              *
+*                                                                    *
+* Server started: 30/05/08 16:37                                     *
+* Server ID: ejb3-test                                               *
+* JDK: 1.5.0_14 (mixed mode)                                         *
+* OS: Windows XP - Service Pack 2 (5.1, x86)                         *
+* Host: cw-9y9vg1s (172.20.10.187)                                   *
+*                                                                    *
+* Agents Running:                                                    *
+*   Mule Admin: accepting connections on tcp://localhost:60504       *
+**********************************************************************
+INFO  2008-05-30 16:37:27,125 [WrapperListener_start_runner] org.mule.MuleServer: Mule Server initialized.
+INFO  2008-05-30 16:37:32,578 [test.2] org.mule.components.simple.LogComponent: 
+********************************************************************************
+* Message received in component: test. Content is: 'hello'                     *
+********************************************************************************
+INFO  2008-05-30 16:37:34,828 [test.2] org.mule.providers.ejb3.Ejb3MessageDispatcher: Connected: Ejb3MessageDispatcher{this=d8e902, endpoint=ejb3://localhost:8080/echoBean?method=echo}
+INFO  2008-05-30 16:37:34,843 [test.2] org.mule.providers.ejb3.Ejb3MessageDispatcher: Disconnected: Ejb3MessageDispatcher{this=d8e902, endpoint=ejb3://localhost:8080/echoBean?method=echo}
+ERROR 2008-05-30 16:37:34,859 [test.2] org.mule.impl.DefaultComponentExceptionStrategy: 
+********************************************************************************
+Message               : Failed to route event via endpoint: MuleEndpoint{endpointUri=ejb3://localhost:8080/echoBean?method=echo, connector=Ejb3Connector{this=1eb0, started=true, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}, transformer=null, name='endpoint.ejb3.localhost.8080.echoBean.method.echo', type='sender', properties={method=echo}, transactionConfig=Transaction{factory=null, action=NONE, timeout=30000}, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0, remoteSync=true, remoteSyncTimeout=null, endpointEncoding=null}. Message payload is of type: String
+Type                  : org.mule.umo.provider.DispatchException
+Code                  : MULE_ERROR-42999
+JavaDoc               : http://mule.mulesource.org/docs/apidocs/org/mule/umo/provider/DispatchException.html
+Payload               : hello
+********************************************************************************
+Exception stack is:
+1. getPayload (java.lang.UnsupportedOperationException)
+  org.mule.providers.ejb3.Ejb3MessageAdapter:54 (http://java.sun.com/j2se/1.5.0/docs/api/java/lang/UnsupportedOperationException.html)
+2. Failed to route event via endpoint: MuleEndpoint{endpointUri=ejb3://localhost:8080/echoBean?method=echo, connector=Ejb3Connector{this=1eb0, started=true, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}, transformer=null, name='endpoint.ejb3.localhost.8080.echoBean.method.echo', type='sender', properties={method=echo}, transactionConfig=Transaction{factory=null, action=NONE, timeout=30000}, filter=null, deleteUnacceptedMessages=false, initialised=true, securityFilter=null, synchronous=true, initialState=started, createConnector=0, remoteSync=true, remoteSyncTimeout=null, endpointEncoding=null}. Message payload is of type: String (org.mule.umo.provider.DispatchException)
+  org.mule.providers.AbstractMessageDispatcher:252 (http://mule.mulesource.org/docs/apidocs/org/mule/umo/provider/DispatchException.html)
+********************************************************************************
+Root Exception stack trace:
+java.lang.UnsupportedOperationException: getPayload
+	at org.mule.providers.ejb3.Ejb3MessageAdapter.getPayload(Ejb3MessageAdapter.java:54)
+	at org.mule.providers.rmiejb3.RmiMessageDispatcher.doSend(RmiMessageDispatcher.java:118)
+	at org.mule.providers.AbstractMessageDispatcher.send(AbstractMessageDispatcher.java:224)
+	at org.mule.providers.AbstractConnector.send(AbstractConnector.java:1608)
+	at org.mule.impl.ImmutableMuleEndpoint.send(ImmutableMuleEndpoint.java:951)
+	at org.mule.impl.MuleSession.sendEvent(MuleSession.java:327)
+	at org.mule.impl.MuleSession.sendEvent(MuleSession.java:210)
+	at org.mule.routing.outbound.AbstractOutboundRouter$2.doInTransaction(AbstractOutboundRouter.java:147)
+	at org.mule.transaction.TransactionTemplate.execute(TransactionTemplate.java:40)
+	at org.mule.routing.outbound.AbstractOutboundRouter.send(AbstractOutboundRouter.java:154)
+	at org.mule.routing.outbound.ChainingRouter.route(ChainingRouter.java:67)
+	at org.mule.routing.outbound.OutboundRouterCollection$1.doInTransaction(OutboundRouterCollection.java:66)
+	at org.mule.transaction.TransactionTemplate.execute(TransactionTemplate.java:40)
+	at org.mule.routing.outbound.OutboundRouterCollection.route(OutboundRouterCollection.java:71)
+	at org.mule.impl.model.DefaultMuleProxy.run(DefaultMuleProxy.java:479)
+	at org.mule.impl.work.WorkerContext.run(WorkerContext.java:310)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1061)
+	at edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:575)
+	at java.lang.Thread.run(Thread.java:595)
+
+********************************************************************************
+
+INFO  2008-05-30 16:37:52,656 [Thread-0] org.mule.providers.tcp.TcpConnector: Stopping: TcpConnector{this=ec436, started=true, initialised=true, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.tcp.TcpMessageReceiver: Disconnected: TcpMessageReceiver{this=1f8d244, receiverKey=tcp://localhost:60504, endpoint=tcp://localhost:60504}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.tcp.TcpConnector: Stopped: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.tcp.TcpConnector: Disconnected: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.tcp.TcpConnector: Stopped: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Stopping: SystemStreamConnector{this=aa233f, started=true, initialised=true, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.stream.StreamMessageReceiver: Disconnected: StreamMessageReceiver{this=171194d, receiverKey=System.in, endpoint=stream://System.in}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Stopped: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Disconnected: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Stopped: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Stopping: Ejb3Connector{this=1eb0, started=true, initialised=true, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Stopped: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,671 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Disconnected: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Stopped: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.vm.VMConnector: Stopping: VMConnector{this=a1aa85, started=true, initialised=true, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=true, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.vm.VMMessageReceiver: Disconnected: VMMessageReceiver{this=19050a0, receiverKey=result, endpoint=vm://result}
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.vm.VMConnector: Stopped: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.vm.VMConnector: Disconnected: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.vm.VMConnector: Stopped: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.MuleManager: Connectors have been stopped successfully
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.MuleManager: Stopping agents...
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.MuleManager: Agents Successfully Stopped
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.util.queue.TransactionalQueueManager: Stopping ResourceManager
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.util.queue.TransactionalQueueManager: Stopped ResourceManager
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.tcp.TcpConnector: Removing listener on endpointUri: tcp://localhost:60504
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.tcp.TcpMessageReceiver: Closed Tcp port
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.impl.model.seda.SedaModel: Component _muleManagerComponent has been stopped successfully
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.vm.VMConnector: Removing listener on endpointUri: vm://result
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.impl.model.seda.SedaModel: Component result has been stopped successfully
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Removing listener on endpointUri: stream://System.in
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.impl.model.seda.SedaModel: Component test has been stopped successfully
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.tcp.TcpConnector: Disposing: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.tcp.TcpConnector: Stopped: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,718 [Thread-0] org.mule.providers.tcp.TcpConnector: Disposed: TcpConnector{this=ec436, started=false, initialised=false, name='connector.tcp.0', disposed=true, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[tcp], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,734 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Disposing: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:52,734 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Stopped: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+WARN  2008-05-30 16:37:57,734 [Thread-0] org.mule.impl.work.MuleWorkManager: Pool stream.receiver did not terminate in time; 0 work items were cancelled.
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.providers.stream.SystemStreamConnector: Disposed: SystemStreamConnector{this=aa233f, started=false, initialised=false, name='stream', disposed=true, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[stream], serviceOverrides=null}
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Disposing: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Stopped: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.providers.ejb3.Ejb3Connector: Disposed: Ejb3Connector{this=1eb0, started=false, initialised=false, name='ejb3', disposed=true, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[ejb3], serviceOverrides=null}
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.providers.vm.VMConnector: Disposing: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.providers.vm.VMConnector: Stopped: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=false, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.providers.vm.VMConnector: Disposed: VMConnector{this=a1aa85, started=false, initialised=false, name='connector.VM.0', disposed=true, numberOfConcurrentTransactedReceivers=4, createMultipleTransactedReceivers=true, connected=false, supportedProtocols=[vm], serviceOverrides=null}
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.impl.model.seda.SedaModel: _muleManagerComponent has been destroyed successfully
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.impl.model.seda.SedaModel: result has been destroyed successfully
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.impl.model.seda.SedaModel: test has been destroyed successfully
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.MuleManager: disposing agents...
+INFO  2008-05-30 16:37:57,734 [Thread-0] org.mule.MuleManager: Agents Successfully Disposed
+INFO  2008-05-30 16:37:57,750 [Thread-0] org.mule.util.queue.TransactionalQueueManager: Stopping ResourceManager
+INFO  2008-05-30 16:37:57,750 [Thread-0] org.mule.util.queue.TransactionalQueueManager: Stopped ResourceManager
+INFO  2008-05-30 16:37:57,781 [Thread-0] org.mule.MuleManager: 
+******************************************************************************
+* Mule shut down normally on: 30/05/08 16:37                                 *
+* Server was up for: 0 days, 0 hours, 0 mins, 35.94 sec                      *
+******************************************************************************

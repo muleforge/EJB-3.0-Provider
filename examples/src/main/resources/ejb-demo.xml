@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mule-configuration PUBLIC "-//MuleSource //DTD mule-configuration XML V1.0//EN"
+                                "http://mule.mulesource.org/dtds/mule-configuration.dtd">
+
+<mule-configuration id="ejb3-test" version="1.0">
+
+	<connector name="ejb3" className="org.mule.providers.ejb3.Ejb3Connector">
+		<properties>
+			<property name="securityPolicy" value="rmi.policy"/>
+			
+			<property name="jndiInitialFactory" value="com.sun.enterprise.naming.SerialInitContextFactory"/>
+			<property name="jndiUrlPkgPrefixes" value="com.sun.enterprise.naming"/>
+			
+		</properties>
+	</connector>
+	
+	<connector name="stream" className="org.mule.providers.stream.SystemStreamConnector">
+		<properties>
+			<property name="promptMessage" value="enter the payload"/>
+		</properties>
+	</connector>
+
+	<model name="ejb3">
+		<mule-descriptor name="test" implementation="org.mule.components.simple.EchoComponent">
+			<inbound-router>
+				<endpoint address="stream://System.in" connector="stream"/>
+			</inbound-router>
+			
+			<outbound-router>
+				<router className="org.mule.routing.outbound.ChainingRouter">
+					<endpoint address="ejb3://localhost:8080/echoBean?method=echo" connector="ejb3"/>
+					<endpoint address="vm://result"/>
+				</router>
+			</outbound-router>
+		</mule-descriptor>
+		
+		<mule-descriptor name="result" implementation="org.mule.components.simple.EchoComponent">
+			<inbound-router>
+				<endpoint address="vm://result"/>
+			</inbound-router>
+		</mule-descriptor>
+	</model>
+
+</mule-configuration>
+
